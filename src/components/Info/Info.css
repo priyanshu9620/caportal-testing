@@ -1,0 +1,146 @@
+.container {
+    background-image: url('../../assets/background.jpg');
+    /* background-color: #412234; */
+    width: 100%;
+    height: 60rem;
+    position: relative;
+  }
+  
+  .main-text {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #F6E6FE;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  
+  .cover {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  
+  .box {
+    flex: 1;
+    margin: 3rem 3rem;
+    border: 5px solid #ffffff;
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A0447;
+    box-shadow: 0 0 20px 10px #D93BD3;
+  }
+  
+  .text-block {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    /* word-wrap: break-word; */
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .container {
+      height: 60rem;
+      width:auto;
+    }
+  
+    .main-text {
+      font-size: 20px;
+    }
+    .cover{
+        flex-direction: column;
+    }
+    .box {
+      margin: 3rem;
+      padding: 2rem;
+      font-size: 24px;
+      flex-direction: row; 
+    }
+  
+    .text-block {
+      font-size: 18px;
+    }
+  }
+  
+
+  .box-main{
+    background-image: url('../../assets/check.png');
+    background-color:#412234;
+    width: auto;
+    height:60rem;
+    max-width: 100%;
+    padding-top: 2rem;
+
+  }
+  .PRIZES {
+      font-size: 36px;
+      font-family: "Poppins";
+      font-weight: 600;
+      color: rgba(246, 230, 254, 1);
+      display: flex;
+      justify-content: center;
+    }
+    .prizes-container{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 2rem;
+        padding: 5%;
+        background: linear-gradient(to right, #B3009D,#784800);
+    }
+    .item {
+        text-align: center;
+        position: relative;
+    }
+    
+    
+    @media (max-width: 768px) {
+      .prizes-container {
+        flex-direction: column; 
+        align-items: stretch;
+      }
+  
+      .item {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .PRIZES {
+        font-size: 18px; 
+      }
+    }
+    .passes {
+        font-size: 24px;
+        font-family: "Poppins";
+        font-weight: 600;
+        color: rgba(0, 0, 0, 1);
+    }
+    .merchandise {
+        font-size: 24px;
+        font-family: "Poppins";
+        font-weight: 600;
+        color: rgba(0, 0, 0, 1);
+    }
+    .prizes {
+        font-size: 24px;
+        font-family: "Poppins";
+        font-weight: 600;
+        color: rgba(0, 0, 0, 1);
+    }
+    .certificate{
+        font-size: 24px;
+        font-family: "Poppins";
+        font-weight: 600;
+        color: rgba(0, 0, 0, 1);
+    }
+  
